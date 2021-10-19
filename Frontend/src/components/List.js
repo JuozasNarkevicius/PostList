@@ -1,8 +1,7 @@
+import 'bootstrap/dist/css/bootstrap.min.css';
 import React, { useState, useEffect } from "react";
 import axios from "axios";
-import 'bootstrap/dist/css/bootstrap.min.css';
-import { Container } from 'react-bootstrap';
-import Table from 'react-bootstrap/Table';
+import { Container, Table } from 'react-bootstrap';
 import { useHistory } from 'react-router-dom';
 import address from "../BackendApi";
 

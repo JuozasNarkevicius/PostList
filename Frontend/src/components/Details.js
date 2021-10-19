@@ -1,8 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from "axios";
-import { useParams } from "react-router-dom";
 import { Container, Card } from 'react-bootstrap';
-import { useHistory } from 'react-router-dom';
+import { useParams, useHistory } from 'react-router-dom';
 import address from '../BackendApi';
 
 const Details = () => {
